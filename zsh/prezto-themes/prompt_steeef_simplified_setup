@@ -28,10 +28,6 @@ function prompt_steeef_simplified_precmd {
     python-info
   fi
 
-  # Get ruby information
-  if (( $+functions[ruby-info] )); then
-    ruby-info
-  fi
 }
 
 function prompt_steeef_simplified_setup {
