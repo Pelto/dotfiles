@@ -105,6 +105,9 @@ set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWeelDown> <C-E>
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
